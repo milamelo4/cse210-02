@@ -17,24 +17,36 @@ If a player reaches 0 points the game is over.
 If a player has more than 0 points they decide if they want to keep playing.
 If a player decides not to play again the game is over.
 
-
-methods will be the behavior
-attributes will be states
-
-OBJECTS:
-Dealer
-    Responsiblity-control game
-    Behavior-
-    State-
-card
-    Responsibility-
-    Behaviors-  card numbers 1-13
-    States-
-
-
 Need to draw a card-function in dealer class
 Need to ask player to guess higher or lower-input with variable in dealer class
 Need to draw another card-function in dealer class
 Evaluate if guess is true or false-function in dealer
 Score guess-function in dealer
 Ask player to play again-input with variable in dealer class
+
+
+
+OBJECTS:
+Dealer
+    Responsiblity-control game
+    Behaviors- show card drawn
+            ask player to guess
+            evaluate guess is correct
+            score guess
+    State- value of guess
+
+Cards
+    Responsibility- keep track of which card is drawn
+    Behaviors- display card 
+    States- card numbers 1-13
+
+
+CLASSES:
+dealer
+    methods-
+    parameters
+    return types
+cards
+    methods-function to draw card
+    parameters-value
+    return types-random choose number between 1 and 13
