@@ -50,3 +50,12 @@ cards
     methods-function to draw card
     parameters-value
     return types-random choose number between 1 and 13
+
+METHODS:
+start_game(self): Starts the game by running a loop.
+    Return: None 
+
+play_again(self): Get an input from player if he wants to play again
+    return: start game if yes 
+
+    
